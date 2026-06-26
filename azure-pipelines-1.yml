@@ -27,6 +27,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'dock2'
-    repository: 'rahulshettyacademy/azuredevops1'
+    repository: 'sushboga0212/azuredevops1'
     command: 'buildAndPush'
     Dockerfile: '**/AzureDockerfile'
